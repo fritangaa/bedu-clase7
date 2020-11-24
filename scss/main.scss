@@ -1,0 +1,32 @@
+/*@import "./_global";
+@import "./_button";*/
+@import "./_mixin";
+@import "./_herencia";
+/*.blog {
+    background-color: $white;
+    max-width: unset;
+    padding: 5% 10%;
+}
+
+.button_ejemplo {
+    background-color: $bg-color;
+    margin: $size * 2;
+}
+*/
+
+
+h1 {
+  color: blue;
+  @include transformar(rotate(-10deg))
+}
+
+h2 {
+  color: red;
+  @include transformar(rotate(5deg))
+}
+
+h3 {
+  font-size: 2em; }
+
+h4 {
+  font-size: 1.5em; }
